@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="app.css" />
-    <script src=".script.js" defer></script>
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,15 +32,15 @@
         <label id="score">2</label>
       </div>
       <div id="game-place">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item" id="btn1" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn2" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn3" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn4" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn5" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn6" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn7" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn8" onclick="appendSign(this.id)"></div>
+        <div class="item" id="btn9" onclick="appendSign(this.id)"></div>
       </div>
       <div class="user_info">
         <ion-icon class="icon" name="radio-button-off-outline"></ion-icon>
@@ -49,5 +48,6 @@
       </div>
     </section>
     <button id="reset">Reset</button>
+    <script src="script.js"></script>
   </body>
 </html>

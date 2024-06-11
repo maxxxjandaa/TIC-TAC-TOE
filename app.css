@@ -47,6 +47,12 @@ h1 {
 
 .item {
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 3rem;
+  user-select: none;
 }
 
 /* Utility class */
