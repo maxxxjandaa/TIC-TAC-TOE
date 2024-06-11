@@ -6,6 +6,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="app.css" />
     <script src=".script.js" defer></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICON -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <section id="main">
+      <div class="user_info">
+        <ion-icon class="icon" name="close-outline"></ion-icon>
+        <label id="score">2</label>
+      </div>
+      <div id="game-place">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+      <div class="user_info">
+        <ion-icon class="icon" name="radio-button-off-outline"></ion-icon>
+        <label id="score">3</label>
+      </div>
+    </section>
+    <button id="reset">Reset</button>
+  </body>
 </html>
