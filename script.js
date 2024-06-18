@@ -7,7 +7,11 @@ function appendSign(el, name) {
     checkerOne.push(name);
 
     console.log("Checker one " + checkerOne);
-    for (let i = 0; i <= checkerOne.length; i++) {}
+    // for (let i = 0; i <= checkerOne.length; i++) {
+
+    // }
+    if (checkerOne == "a1") {
+    }
     player = 2;
   } else {
     checkerTwo.push(name);
